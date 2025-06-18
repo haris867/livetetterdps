@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Noe på hjertet?</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+
+<body>
+    <form id="contact-form" name="contact" method="POST" data-netlify="true" action="/takk.html">
+        <input type="text" name="name" value="anonymous" placeholder="Name"
+            style="visibility:hidden; position: absolute;">
+        <input type="email" name="email" value="anonymous@example.com" placeholder="Email"
+            style="visibility:hidden; position: absolute;">
+        <textarea name="message" placeholder="Noe på hjertet?" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+</body>
+
+</html>
