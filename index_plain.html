@@ -23,9 +23,10 @@
             For
             alt. Hun er en søt person as.</p>
     </div>
-    <form id="contact-form" name="contact" method="POST" data-netlify="true">
+    <form id="contact-form" name="contact" value="anonymous" method="POST" data-netlify="true" action="/">
         <input type="text" name="name" placeholder="Name" style="visibility:hidden; position: absolute;">
-        <input type="email" name="email" placeholder="Email" style="visibility:hidden; position: absolute;">
+        <input type="email" name="email" value="anonymous@example.com" placeholder="Email"
+            style="visibility:hidden; position: absolute;">
         <textarea name="message" placeholder="Noe på hjertet?" required></textarea>
         <button type="submit">Send</button>
     </form>
